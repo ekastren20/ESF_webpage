@@ -51,7 +51,7 @@ shadow{
 
 .hero{
     min-height: 70vh;
-    background: var(--main-blue);
+    background: var(--Success-dark);
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -76,7 +76,7 @@ shadow{
 }
 
 .background{
-    background-color: var(--dark-sand);
+    background-color: var(--Success-dark);
 }
 
 .glass{
