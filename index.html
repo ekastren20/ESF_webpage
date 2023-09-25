@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./img/Group 2 (1).png">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/var.css">
+    <link rel="stylesheet" href="./css/style.css">
+   
+  </head>
+  <style>
+    img{
+      display: block;
+      margin: center;
+    }
+  </style>
+  <body style="background: var(white);">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <a class="navbar-brand" href="./index.html"><img src="./img/Group 2 (1).png" alt="logo"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active font-gotham" aria-current="page" href="./index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link font-gotham" href="./aboutme.html">About Me</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle font-gotham" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Projects
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="./project1.html">Project 1</a></li>
+                  <li><a class="dropdown-item" href="./project2.html">Project 2</a></li>
+                  <li><a class="dropdown-item" href="./project3.html">Project 3</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-primary font-gotham" href="./resume/Resume.UXUI.pdf" download>
+                  <i class="fa-solid fa-download"></i>
+                  Resume</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Hero Section -->
+      <div class="hero">
+        <div class="container"> 
+          <div class="row heroSection">
+              <div class="col-6 col-md-3">
+                <img src="./img/Project Images/Wetland Delineation/IMG_2483.jpg" alt="Wetland Photo" class="heroImg">
+              </div>
+              <div class="col-lg-7 col-md-9 col-xxl-5">
+                  <h3 class="text-center text-md-start font-cryllic header1"><b>Environmental Solutions Florida</b></h3>
+              
+                   <p class="font-gotham"> <i>UX/UI and Graphic Designer</i></p>
+                   <p class="font-gotham"> <i>Tampa, Florida</i></p>
+                
+              </div>
+          </div>
+        </div>
+      </div>
+<!-- Project Section (Start) -->
+<!-- cards were at col-md-6 col-lg-3 (for 4 project slides)-->
+<div class="background">
+      <div class="container mt-5">
+          <div class="row">
+              <h3 class="sectionTitle space-top space-bottom header1 font-cryllic"><b>Projects</b></h3>
+              <!-- project card 1 start-->
+              <div class="col-md-2 col-lg-4">
+                <div class="card" style="background-color: var(--main-blue);">
+                    <img src="./img/CaseStudies/GovntWebsite/Treasury Direct Main.jpg" alt="Government Wesbsite Photo" class="card1-img padding-left paddingrightc1">
+                    <div class="card-body">
+                      <h5 class="card2-title"><b>Government Website Remodeling for Desktop & Mobile</b></h5>
+                      <p class="card-text">Explore how my team and I re-designed the website Treasury Direct</p>
+                      <a href="./project1.html" class="btn btn-primary">View Project</a>
+                    </div>
+                  </div>
+              </div>
+              <!-- /project card 1 end -->
+                <!-- project card 2 start-->
+                <div class="col-md-2 col-lg-4 wholecard">
+                    <div class="card"  style="background-color: var(--main-blue);">
+                        <img src="./img/CaseStudies/LibraryRemodeling/Hi-Fidelity.jpg" alt="Library Wesbsite Photo" class="card2-img padding-left paddingrightc2">
+                        <div class="card-body">
+                            <h5 class="card2-title"><b>Library Website Remodeling</b></h5>
+                            <p class="card-text">See how myself and a team of designers curated an old library website
+                            </p>
+                            <a href="./project2.html" class="btn btn-primary">View Project</a>
+                        </div>
+                        </div>
+                    </div>
+                    <!-- /project card 2 end-->
+                <!-- project card 3 start -->
+              <div class="col-md-2 col-lg-4">
+                <div class="card"  style="background-color: var(--main-blue);">
+                    <img src="./img/Community Board Adept (small-cover version).png" class="card3-img-top padding-left" alt="Art Teaching App">
+                    <div class="card-body">
+                      <h5 class="card2-title"><b>Art-Teaching App Prototype</b></h5>
+                      <p class="card-text">Explore how my team and I brought my idea of an art-teaching app to life</p>
+                      <a href="./project3.html" class="btn btn-primary">View Project</a>
+                    </div>
+                  </div>
+              </div>
+              <!-- /project card 3 end -->
+              <!-- project card 4 start-->
+                <div class="col-md-6 col-lg-3">
+              </div>
+          </div>
+        </div>
+              <!-- /project card 4 end -->
+   </div>
+
+
+<!-- Project Section (End) -->
+
+<!-- Footer -->
+<div class="container-fluid footer">
+    <h5 class="footer-text">Emmanuel Kastrenakes</h5>
+    <p class="footer-text">This page has been created using Visual Studio Code</p>
+    <a href="https://www.linkedin.com/in/emmanuel-kastrenakes-7804bb95/" class="icon" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+    </a>
+    <p class="footer-text">© Copyright Emmanuel Kastrenakes. All Rights Reserved</p>
+        <p class="footer-text">Designed by Emmanuel Kastrenakes</p>
+
+</div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
