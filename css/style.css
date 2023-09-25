@@ -298,7 +298,7 @@ shadow{
     display: block;
     font-family: "cronos-pro", sans-serif;
     font-size: 32px;
-    color: var(--main-blue);
+    color: var(--white);
     padding-top: 32px;
     
 }
@@ -308,14 +308,14 @@ shadow{
     font-family: "cronos-pro", sans-serif;
     font-size: 24px;
     font-weight: 400;
-    color: var(--main-blue);
+    color: var(--white);
 }
 
 .sectionTitle{
     display: center;
     font-family: "cronos-pro", sans-serif;
     font-size: 28px;
-    color: var(--main-blue);
+    color: var(--white);
     padding-top: 35px;
 }
 
