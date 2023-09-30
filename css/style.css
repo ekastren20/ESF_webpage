@@ -50,7 +50,7 @@ shadow{
 }
 
 .hero{
-    min-height: 70vh;
+    min-height: 40vh;
     background: var(--Success-dark);
     display: flex;
     align-items: center;
@@ -64,9 +64,11 @@ shadow{
 }
 
 .heroImg{
-    width: 100%;
+    width: 115%;
     padding: 44px 50px;
     padding-top: 75px;
+    box-shadow: var(--dark-sand) 12px -8px;
+    
 }
 
 .heroImg2{
@@ -300,6 +302,7 @@ shadow{
     font-size: 32px;
     color: var(--white);
     padding-top: 32px;
+    text-shadow: black 10px -7px 3px;
     
 }
 
