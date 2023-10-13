@@ -334,6 +334,8 @@ shadow{
     font-size: 24px;
     font-weight: 400;
     color: var(--esf-blue);
+    padding-left: 30px;
+    padding-bottom: 36px;
 }
 
 .sectionTitle{
