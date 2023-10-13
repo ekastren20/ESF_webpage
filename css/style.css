@@ -22,7 +22,7 @@ shadow{
 }
 
 .nav-link{
-    color: var(--main-blue) !important;
+    color: var(--esf-blue) !important;
 }
 
 .nav-link:hover{
@@ -31,13 +31,13 @@ shadow{
 }
 
 .nav-link.active{
-    color: var(--main-blue) !important;
+    color: var(--esf-blue) !important;
     font-weight: bold;
-    border-bottom: 2px solid var(--main-blue);
+    border-bottom: 2px solid var(--esf-blue);
 }
 
 .dropdown-menu{
-    background-color: var(--main-grey);
+    background-color: var(--esf-blue);
 }
 
 .dropdown-item{
@@ -45,13 +45,13 @@ shadow{
 }
 
 .dropdown-item:hover{
-    background-color: var(--main-blue);
+    background-color: var(--Primary-dark);
     color: var(--white)
 }
 
 .hero{
     min-height: 40vh;
-    background: var(--Success-dark);
+    background: var(--white);
     display: flex;
     align-items: center;
     padding-top: 80px;
@@ -67,7 +67,6 @@ shadow{
     width: 115%;
     padding: 44px 50px;
     padding-top: 75px;
-    box-shadow: var(--dark-sand) 12px -8px;
     
 }
 
@@ -78,7 +77,7 @@ shadow{
 }
 
 .background{
-    background-color: var(--Success-dark);
+    background-color: var(--white);
 }
 
 .glass{
@@ -100,7 +99,7 @@ shadow{
 }
 
 .img-background{
-    background-color: var(--main-blue);
+    background-color: var(--esf-blue);
 }
 
 /*space*/
@@ -150,7 +149,7 @@ shadow{
 
 
 .footer{
-    background: var(--white);
+    background: var(--esf-blue);
     text-align: center;
     padding: 30px;
     margin-top: 60px;
@@ -187,7 +186,7 @@ shadow{
 }
 
 .btn-primary{
-    background-color: var(--dark-sand);
+    background-color: var(--esf-blue);
     border-color: var(--white);
 }
 
@@ -216,7 +215,8 @@ shadow{
 }
 
 .card2-title{
-    padding-top: 40px;
+    color: var(--Success-dark);
+    padding-top: 20px;
 }
 
 .card3-title{
@@ -234,15 +234,15 @@ shadow{
 .card2-img{
     max-width: 95%;
     max-height: 95%;
-    padding-top: 76px;
-    padding-bottom: 85px;
+    padding-top: 85px;
+    padding-bottom: 47px;
 }
 
 .card3-img-top{
     max-width: 90%;
     max-height: 90%;
-    padding-top: 54px;
-    padding-bottom: 60px;
+    padding-top: 85px;
+    padding-bottom: 48px;
 }
 
 .card3-title{
@@ -256,6 +256,8 @@ shadow{
 .card-text{
     font-family: var(--font-family-normal);
     font-size: var(--font-size-small);
+    color: var(--Success-dark);
+    padding-bottom: 40px;
 }
 
 .paddingrightc2{
@@ -287,11 +289,20 @@ shadow{
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1.7em;
+    color: var(--esf-blue);
+}
+
+.font-gotham-button{
+    font-family: "cronos-pro", Sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: var(--white);
 }
 
 .arrow{
     font-size: 60px;
-    color: var(--main-blue);
+    color: var(--esf-blue);
 }
 
 /*Header Section*/
@@ -300,9 +311,9 @@ shadow{
     display: block;
     font-family: "cronos-pro", sans-serif;
     font-size: 32px;
-    color: var(--white);
+    color: var(--esf-blue);
     padding-top: 32px;
-    text-shadow: black 10px -7px 3px;
+    padding-bottom: 36px;
     
 }
 
@@ -311,14 +322,14 @@ shadow{
     font-family: "cronos-pro", sans-serif;
     font-size: 24px;
     font-weight: 400;
-    color: var(--white);
+    color: var(--esf-blue);
 }
 
 .sectionTitle{
     display: center;
     font-family: "cronos-pro", sans-serif;
     font-size: 28px;
-    color: var(--white);
+    color: var(--esf-blue);
     padding-top: 35px;
 }
 
@@ -373,8 +384,14 @@ shadow{
     background: rgb(255, 255, 255, 0.5);
 }
 
+/* icon downloads */
+
+span {
+    content: "\2709";
+  }
+
 .footer-text{
-    color: var(--main-blue);
+    color: var(--white);
     font-family: "cronos-pro", sans-serif;
     font-style: bold;
     font-weight: 550;
