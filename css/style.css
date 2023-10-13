@@ -215,7 +215,7 @@ shadow{
 }
 
 .card2-title{
-    color: var(--Success-dark);
+    color: var(--esf-blue);
     padding-top: 20px;
 }
 
@@ -256,7 +256,7 @@ shadow{
 .card-text{
     font-family: var(--font-family-normal);
     font-size: var(--font-size-small);
-    color: var(--Success-dark);
+    color: var(--esf-blue);
     padding-bottom: 40px;
 }
 
@@ -292,12 +292,22 @@ shadow{
     color: var(--esf-blue);
 }
 
+.font-gotham-hero-summary{
+    font-family: "cronos-pro", Sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: var(--esf-blue);
+    padding-left: 30px;
+}
+
 .font-gotham-button{
     font-family: "cronos-pro", Sans-serif;
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1.7em;
     color: var(--white);
+    
 }
 
 .arrow{
@@ -314,6 +324,7 @@ shadow{
     color: var(--esf-blue);
     padding-top: 80px;
     padding-bottom: 36px;
+    padding-left: 30px;
     
 }
 
