@@ -312,7 +312,7 @@ shadow{
     font-family: "cronos-pro", sans-serif;
     font-size: 32px;
     color: var(--esf-blue);
-    padding-top: 32px;
+    padding-top: 80px;
     padding-bottom: 36px;
     
 }
@@ -389,6 +389,8 @@ shadow{
 span {
     content: "\2709";
   }
+
+  /* icon downloads end */
 
 .footer-text{
     color: var(--white);
