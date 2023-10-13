@@ -328,6 +328,17 @@ shadow{
     
 }
 
+.header1-Services{
+    display: block;
+    font-family: "cronos-pro", sans-serif;
+    font-size: 32px;
+    color: var(--esf-blue);
+    padding-top: 80px;
+    padding-bottom: 36px;
+    padding-left: 150px;
+    
+}
+
 .header2{
     display: block;
     font-family: "cronos-pro", sans-serif;
