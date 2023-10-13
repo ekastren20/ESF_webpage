@@ -412,3 +412,29 @@ span {
     font-weight: 550;
     font-size: 20px;
 }
+
+.footer-text2{
+    color: var(--white);
+    font-family: "cronos-pro", sans-serif;
+    font-style: bold;
+    font-weight: 550;
+    font-size: 30px;
+}
+
+.footer-text3{
+    color: var(--white);
+    font-family: "cronos-pro", sans-serif;
+    font-style: bold;
+    font-weight: 550;
+    font-size: 25px;
+}
+
+.footer-text4{
+    color: var(--white);
+    font-family: "cronos-pro", sans-serif;
+    font-style: bold;
+    font-weight: 550;
+    font-size: 25px;
+    padding-bottom: 25px;
+}
+
