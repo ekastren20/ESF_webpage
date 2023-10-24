@@ -428,7 +428,7 @@ span {
     font-family: "cronos-pro", sans-serif;
     font-style: bold;
     font-weight: 550;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 .footer-text2{
@@ -436,7 +436,7 @@ span {
     font-family: "cronos-pro", sans-serif;
     font-style: bold;
     font-weight: 550;
-    font-size: 30px;
+    font-size: 15px;
 }
 
 .footer-text3{
@@ -444,7 +444,7 @@ span {
     font-family: "cronos-pro", sans-serif;
     font-style: bold;
     font-weight: 550;
-    font-size: 25px;
+    font-size: 12.5px;
 }
 
 .footer-text4{
@@ -452,7 +452,7 @@ span {
     font-family: "cronos-pro", sans-serif;
     font-style: bold;
     font-weight: 550;
-    font-size: 25px;
+    font-size: 12.5px;
     padding-bottom: 25px;
 }
 
