@@ -365,6 +365,7 @@ shadow{
 }
 
 .sectionTitle2{
+    text-align: center;
     display: center;
     font-family: "cronos-pro", sans-serif;
     font-size: 28px;
