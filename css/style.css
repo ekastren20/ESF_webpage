@@ -3,6 +3,9 @@
     max-width: 2000px;
 }
 
+.center{
+    text-align: center;
+}
 
 body{
     color: var(--white);
@@ -293,10 +296,17 @@ shadow{
 
 .font-gotham{
     font-family: "cronos-pro", Sans-serif;
-    font-size: 1.3em;
+    font-size: 1.5em;
     font-weight: 400;
     line-height: 1.7em;
     color: var(--esf-blue);
+}
+
+.font-gotham-t{
+    font-family: "cronos-pro", Sans-serif;
+    font-weight: 400;
+    color: var(--esf-blue);
+    font-size: 80px;
 }
 
 .font-gotham-hero-summary{
