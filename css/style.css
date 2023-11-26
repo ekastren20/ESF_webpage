@@ -139,6 +139,7 @@ shadow{
     padding-bottom: 20px;
 }
 
+
 .space-p{
     padding-bottom: 25px;
 }
@@ -299,13 +300,13 @@ shadow{
     font-size: 1.5em;
     font-weight: 400;
     line-height: 1.7em;
-    color: var(--esf-blue);
+    color: var(--Gray-dark);
 }
 
 .font-gotham-t{
     font-family: "cronos-pro", Sans-serif;
     font-weight: 400;
-    color: var(--esf-blue);
+    color: var(--Gray-dark);
     font-size: 80px;
 }
 
@@ -314,17 +315,25 @@ shadow{
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1.7em;
-    color: var(--esf-blue);
-    padding-left: 30px;
+    color: var(--Gray-dark);
+    padding-left: 100px;
 }
 
-.font-gotham-button{
+.font-footer{
     font-family: "cronos-pro", Sans-serif;
     font-size: 1.3em;
     font-weight: 400;
     line-height: 1.7em;
     color: var(--white);
-    
+}
+
+.font-gotham-hero-summary{
+    font-family: "cronos-pro", Sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+    line-height: 1.7em;
+    color: var(--Gray-dark);
+    padding-left: 100px;
 }
 
 .arrow{
@@ -341,7 +350,7 @@ shadow{
     color: var(--esf-blue);
     padding-top: 80px;
     padding-bottom: 36px;
-    padding-left: 30px;
+    padding-left: 100px;
     
 }
 
@@ -436,7 +445,7 @@ span {
 
 .footer-text{
     color: var(--white);
-    font-family: "cronos-pro", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-style: bold;
     font-weight: 550;
     font-size: 10px;
@@ -444,15 +453,15 @@ span {
 
 .footer-text2{
     color: var(--white);
-    font-family: "cronos-pro", sans-serif;
+    font-family: Verdana, sans-serif;
     font-style: bold;
     font-weight: 550;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .footer-text3{
     color: var(--white);
-    font-family: "cronos-pro", sans-serif;
+    font-family: Verdana, sans-serif;
     font-style: bold;
     font-weight: 550;
     font-size: 12.5px;
@@ -460,7 +469,7 @@ span {
 
 .footer-text4{
     color: var(--white);
-    font-family: "cronos-pro", sans-serif;
+    font-family: Verdana, sans-serif;
     font-style: bold;
     font-weight: 550;
     font-size: 12.5px;
