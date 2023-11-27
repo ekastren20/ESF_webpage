@@ -303,12 +303,6 @@ shadow{
     color: var(--Gray-dark);
 }
 
-.font-gotham-t{
-    font-family: "cronos-pro", Sans-serif;
-    font-weight: 400;
-    color: var(--Gray-dark);
-    font-size: 80px;
-}
 
 .font-gotham-hero-summary{
     font-family: "cronos-pro", Sans-serif;
@@ -388,7 +382,7 @@ shadow{
     display: center;
     font-family: "cronos-pro", sans-serif;
     font-size: 28px;
-    color: var(--white);
+    color: var(--esf-blue);
     padding-top: 35px;
 }
 
