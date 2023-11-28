@@ -309,6 +309,7 @@ shadow{
     font-weight: 400;
     line-height: 1.7em;
     color: var(--Gray-dark);
+    text-align: left;
 }
 
 .font-gotham-hero-summary{
@@ -347,7 +348,7 @@ shadow{
 .header1{
     display: block;
     font-family: "cronos-pro", sans-serif;
-    font-size: 32px;
+    font-size: 55px;
     color: var(--esf-blue);
     padding-top: 80px;
     padding-bottom: 36px;
@@ -385,7 +386,7 @@ shadow{
 }
 
 .sectionTitle2{
-    text-align: center;
+    text-align: left;
     display: center;
     font-family: "cronos-pro", sans-serif;
     font-size: 28px;
